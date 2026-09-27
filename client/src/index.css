@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+/* ==========================================
+   GLOBAL RESET
+   ========================================== */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family:
+    Inter,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+
+  background-color: #f3f4f6;
+  color: #111827;
+
+  min-width: 320px;
+}
+
+/* ==========================================
+   ROOT
+   ========================================== */
+
+#root {
+  min-height: 100vh;
+}
+
+/* ==========================================
+   LINKS
+   ========================================== */
+
+a {
+  text-decoration: none;
+}
+
+/* ==========================================
+   BUTTONS
+   ========================================== */
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+/* ==========================================
+   INPUTS
+   ========================================== */
+
+input,
+textarea,
+select {
+  font-family: inherit;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+/* ==========================================
+   IMAGES
+   ========================================== */
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* ==========================================
+   SCROLLBAR
+   ========================================== */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f3f4f6;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* ==========================================
+   SELECTION
+   ========================================== */
+
+::selection {
+  background: #bfdbfe;
+  color: #1e3a8a;
+}
