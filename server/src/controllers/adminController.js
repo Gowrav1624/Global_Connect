@@ -1,5 +1,5 @@
 const User = require("../models/User");
-const Post = require("../models/Post");
+const Post = require("../models/post");
 const Job = require("../models/Job");
 
 // Get all users
