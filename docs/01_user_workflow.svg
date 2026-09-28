@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L10,3 L0,6 Z" fill="black"/></marker></defs>
+<rect width="100%" height="100%" fill="white"/>
+<text x="600.0" y="45" text-anchor="middle" font-family="Arial" font-size="28" font-weight="bold">Global Connect — User Workflow</text>
+<line x1="600.0" y1="160" x2="600.0" y2="210" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="600.0" y1="280" x2="600.0" y2="330" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="600.0" y1="400" x2="600.0" y2="450" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="600.0" y1="520" x2="600.0" y2="570" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="600.0" y1="640" x2="600.0" y2="690" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="600.0" y1="760" x2="600.0" y2="810" stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="440" y="90" width="320" height="70" rx="12" fill="#d9ead3" stroke="black" stroke-width="2"/>
+<text x="600.0" y="125.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17">Open Global Connect</text>
+<rect x="440" y="210" width="320" height="70" rx="12" fill="#cfe2f3" stroke="black" stroke-width="2"/>
+<text x="600.0" y="245.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17">Register / Login</text>
+<rect x="440" y="330" width="320" height="70" rx="12" fill="#cfe2f3" stroke="black" stroke-width="2"/>
+<text x="600.0" y="365.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17">Complete / Update Profile</text>
+<rect x="440" y="450" width="320" height="70" rx="12" fill="#cfe2f3" stroke="black" stroke-width="2"/>
+<text x="600.0" y="485.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17">Discover Professionals</text>
+<rect x="440" y="570" width="320" height="70" rx="12" fill="#cfe2f3" stroke="black" stroke-width="2"/>
+<text x="600.0" y="605.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17">Send / Manage Connections</text>
+<rect x="440" y="690" width="320" height="70" rx="12" fill="#fce5cd" stroke="black" stroke-width="2"/>
+<text x="600.0" y="725.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17">Posts • Messages • Jobs • Notifications</text>
+<rect x="440" y="810" width="320" height="50" rx="12" fill="#d9ead3" stroke="black" stroke-width="2"/>
+<text x="600.0" y="835.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17">Logout / Continue</text>
+</svg>

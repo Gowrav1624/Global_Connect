@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+<rect width="1200" height="800" fill="white"/>
+<text x="600" y="45" text-anchor="middle" font-family="Arial" font-size="28" font-weight="bold">Global Connect ERD</text>
+<g font-family="Arial" font-size="16" fill="white" stroke="black" stroke-width="2">
+<rect x="60" y="100" width="220" height="170" fill="#4f81bd"/><rect x="490" y="100" width="220" height="170" fill="#4f81bd"/>
+<rect x="920" y="100" width="220" height="170" fill="#4f81bd"/><rect x="60" y="430" width="220" height="170" fill="#4f81bd"/>
+<rect x="490" y="430" width="220" height="170" fill="#4f81bd"/><rect x="920" y="430" width="220" height="170" fill="#4f81bd"/>
+</g>
+<g font-family="Arial" fill="black" font-size="18">
+<text x="170" y="130" text-anchor="middle" fill="white" font-weight="bold">USER</text><text x="170" y="160">userId</text><text x="170" y="185">name</text><text x="170" y="210">email</text><text x="170" y="235">role</text>
+<text x="600" y="130" text-anchor="middle" fill="white" font-weight="bold">PROFILE</text><text x="600" y="160">profileId</text><text x="600" y="185">userId</text><text x="600" y="210">bio</text><text x="600" y="235">skills</text>
+<text x="1030" y="130" text-anchor="middle" fill="white" font-weight="bold">POST</text><text x="1030" y="160">postId</text><text x="1030" y="185">authorId</text><text x="1030" y="210">content</text><text x="1030" y="235">timestamps</text>
+<text x="170" y="460" text-anchor="middle" fill="white" font-weight="bold">CONNECTION</text><text x="170" y="490">connectionId</text><text x="170" y="515">requesterId</text><text x="170" y="540">recipientId</text><text x="170" y="565">status</text>
+<text x="600" y="460" text-anchor="middle" fill="white" font-weight="bold">CONVERSATION</text><text x="600" y="490">conversationId</text><text x="600" y="515">participants</text><text x="600" y="540">timestamps</text>
+<text x="1030" y="460" text-anchor="middle" fill="white" font-weight="bold">MESSAGE</text><text x="1030" y="490">messageId</text><text x="1030" y="515">conversationId</text><text x="1030" y="540">senderId</text><text x="1030" y="565">content</text>
+</g>
+<g stroke="black" stroke-width="2" fill="none">
+<line x1="280" y1="185" x2="490" y2="185"/><line x1="710" y1="185" x2="920" y2="185"/>
+<line x1="170" y1="270" x2="170" y2="430"/><line x1="280" y1="515" x2="490" y2="515"/>
+<line x1="710" y1="515" x2="920" y2="515"/><line x1="600" y1="270" x2="600" y2="430"/>
+</g>
+</svg>
