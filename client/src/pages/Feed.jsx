@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-const API_URL = "http://localhost:5000/api";
-const SERVER_URL = "http://localhost:5000";
+import { API_URL, SERVER_URL } from "../config";
 
 function Feed() {
   const token = localStorage.getItem("token");

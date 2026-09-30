@@ -2,8 +2,7 @@ import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { setCredentials } from "../store/authSlice";
-
-const API_URL = "http://localhost:5000/api";
+import { API_URL } from "../config";
 
 function Login() {
   const navigate = useNavigate();
@@ -524,6 +523,7 @@ function Login() {
           © {new Date().getFullYear()}{" "}
           Global_Connect
         </p>
+        
 
       </div>
 

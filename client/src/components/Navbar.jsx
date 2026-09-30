@@ -10,8 +10,11 @@ import {
   selectUserRole,
 } from "../store/authSelectors";
 
-const API_URL = "http://localhost:5000/api";
-const SOCKET_URL = "http://localhost:5000";
+import {
+  API_URL,
+  SOCKET_URL,
+  SERVER_URL,
+} from "../config";
 
 function Navbar() {
   const navigate = useNavigate();
@@ -192,7 +195,7 @@ function Navbar() {
       return user.profilePic;
     }
 
-    return `http://localhost:5000${user.profilePic}`;
+    return `${SERVER_URL}${user.profilePic}`;
   };
 
   const profileImage =

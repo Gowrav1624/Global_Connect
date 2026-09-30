@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
-
+ import { API_URL } from "../config";
+ 
 function ResetPassword() {
   const { token } = useParams();
   const navigate = useNavigate();
@@ -12,8 +13,8 @@ function ResetPassword() {
   const [message, setMessage] = useState("");
   const [error, setError] = useState("");
 
-  const API_URL =
-    import.meta.env.VITE_API_URL || "http://localhost:5000/api";
+
+   
 
   const handleSubmit = async (e) => {
     e.preventDefault();

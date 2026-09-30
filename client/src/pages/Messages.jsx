@@ -4,8 +4,7 @@ import { io } from "socket.io-client";
 import { useSelector } from "react-redux";
 import { selectToken, selectUserId } from "../store/authSelectors";
 
-const API_URL = "http://localhost:5000/api";
-const SOCKET_URL = "http://localhost:5000";
+import { API_URL, SOCKET_URL } from "../config";
 
 function Messages() {
   const token = useSelector(selectToken);

@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { selectToken, selectUserRole } from "../store/authSelectors";
+import { API_URL, SERVER_URL } from "../config";
 
-const API_URL = "http://localhost:5000/api";
 
 function Admin() {
   const token = useSelector(selectToken);
@@ -836,7 +836,7 @@ function Admin() {
                                           "http"
                                         )
                                           ? user.profilePic
-                                          : `http://localhost:5000${
+                                          : `${SERVER_URL}${
                                               user.profilePic.startsWith(
                                                 "/"
                                               )

@@ -1,14 +1,14 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-
+ import { API_URL } from "../config";
+ 
 function ForgotPassword() {
   const [email, setEmail] = useState("");
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState("");
   const [error, setError] = useState("");
 
-  const API_URL =
-    import.meta.env.VITE_API_URL || "http://localhost:5000/api";
+
 
   const handleSubmit = async (e) => {
     e.preventDefault();

@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { selectToken } from "../store/authSelectors";
+import { API_URL, SERVER_URL } from "../config";
 
-const API_URL = "http://localhost:5000/api";
 
 function ConnectionRequests() {
   const token = useSelector(selectToken);
@@ -49,7 +49,7 @@ function ConnectionRequests() {
       return user.profilePic;
     }
 
-    return `http://localhost:5000${user.profilePic}`;
+    return `${SERVER_URL}${user.profilePic}`;
   };
 
   // ==========================================
